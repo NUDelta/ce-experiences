@@ -1,3 +1,4 @@
 
-// example routing with Iron Router
-Router.route('/', {name: 'home'});
+Router.route('/', { name: 'home' });
+Router.route('/upload', { name: 'upload' });
+Router.route('/result', { name: 'result' });
