@@ -1,5 +1,7 @@
 <template name="result">
-  {{#each images}}
-  <img src="{{url}}" alt="">
-  {{/each}}
+  <ul class="image-set">
+    {{#each images}}
+    <li><div><img class="square" src="{{url}}" alt=""></div></li>
+    {{/each}}
+  </ul>
 </template>

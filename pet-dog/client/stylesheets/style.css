@@ -1,7 +1,24 @@
-/*
+img.logo {
+  width: 100%;
+}
 
-    ADD IN CSS DECLARATIONS HERE.
+.image-set li {
+  margin: 0.5em;
+  display: inline-block;
+  padding: 2px;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  background-color: rgb(125, 125, 125);
+}
 
-    Rename and reorganize these files as you see fit.
+.image-set li div {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
 
-*/
+.image-set li img {
+  width: 100%;
+}
