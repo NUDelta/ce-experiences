@@ -8,7 +8,7 @@
 */
 
 Meteor.methods({
-    methodName: function () {
-        // ...
-    }
+  clearImages: () => {
+    Images.remove({});
+  }
 });

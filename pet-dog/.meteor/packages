@@ -26,3 +26,4 @@ ecmascript
 cfs:standard-packages
 cfs:filesystem
 cfs:gridfs
+spectrum:photoswipe
